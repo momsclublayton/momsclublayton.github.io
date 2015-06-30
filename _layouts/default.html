@@ -1,0 +1,42 @@
+---
+title: "Layton Mom's club"
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Site Title {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
+  <meta charset='UTF-8'/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel='alternate' type='application/rss+xml' title='RSS' href='SITEURLGOESHERE/blog.rss' />
+  <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
+  <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+
+</head>
+<body>
+  <div class='container-responsive'>
+
+    <nav class="gray lighten-4" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="{{site.baseurl}}/" class="brand-logo">{{page.title}}</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a></li>
+          <li><a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a></li>
+          <li><a href='//github.com/prose/starter'>Fork on GitHub</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#">Navbar Link</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+
+    {{content}}
+  </div>
+  <script src='{{site.baseurl}}/site.js'></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+
+</body>

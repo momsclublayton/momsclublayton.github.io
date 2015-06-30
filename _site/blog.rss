@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<rss version='2.0' xml:base='/blog.rss' xmlns:dc='http://purl.org/dc/elements/1.1/'>
+<channel>
+  <title>Blog</title>
+  <link>/starter</link>
+  <description>Occasional Blog Posts</description>
+  <language>en</language>
+  <item>
+  <title>Cranberries</title>
+  <link>/starter/blog/2015/06/27/your-filename/</link>
+  <description>&lt;h2&gt;A New Post&lt;/h2&gt;
+
+
+
+
+&lt;p&gt;Sometimes I really like to eat goats &lt;img src=&quot;/starter/media/nYPmEDn.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</description>
+  <pubDate>2015-06-27T00:00:00-06:00</pubDate>
+  <dc:creator>SITE NAME</dc:creator>
+  <guid isPermaLink="true">/starter/blog/2015/06/27/your-filename/</guid>
+</item>
+<item>
+  <title>What We Do</title>
+  <link>/starter/blog/2013/06/16/hello-again/</link>
+  <description>&lt;p&gt;We love to get together and have lots of fun. Some of the things we do include:
+Play Dates, Mom&#39;s Night Out, Field Trips, Babysitting Co-op, Holiday Party&#39;s, Service Projects, Crafts for Kids, Book Clubs, and an Exercise Group. We would love to have you join us.&lt;/p&gt;
+
+</description>
+  <pubDate>2013-06-16T00:00:00-06:00</pubDate>
+  <dc:creator>SITE NAME</dc:creator>
+  <guid isPermaLink="true">/starter/blog/2013/06/16/hello-again/</guid>
+</item>
+<item>
+  <title>MOM&#39;s Club of Layton</title>
+  <link>/starter/blog/2013/06/10/another-post/</link>
+  <description>&lt;p&gt;The MOMS Club® is an international nonprofit organization specifically for at-home mothers. Our goals include providing support to at-home mothers, providing a forum for topics of interest to women and giving mothers a chance to associate with others without having to leave their children behind.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;We give moms and their children a chance to socialize and have fun. Nearly all of our activities are held during the daytime and your children are always welcome! We feel that being home with your children does not have to mean being isolated. It&#39;s a great way to meet new people and make new friends.&lt;/p&gt;
+
+</description>
+  <pubDate>2013-06-10T00:00:00-06:00</pubDate>
+  <dc:creator>SITE NAME</dc:creator>
+  <guid isPermaLink="true">/starter/blog/2013/06/10/another-post/</guid>
+</item>
+<item>
+  <title>Hello World</title>
+  <link>/starter/blog/2013/05/09/hello-world/</link>
+  <description>&lt;p&gt;Proin at eros non eros adipiscing mollis. Donec semper turpis sed diam. Sed consequat ligula nec tortor. Integer eget sem. Ut vitae enim eu est vehicula gravida. Morbi ipsum ipsum, porta nec, tempor id, auctor vitae, purus. Pellentesque neque. Nulla luctus erat vitae libero. Integer nec enim. Phasellus aliquam enim et tortor. Quisque aliquet, quam elementum condimentum feugiat, tellus odio consectetuer wisi, vel nonummy sem neque in elit. Curabitur eleifend wisi iaculis ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non velit non ligula laoreet ultrices. Praesent ultricies facilisis nisl. Vivamus luctus elit sit amet mi. Phasellus pellentesque, erat eget elementum volutpat, dolor nisl porta neque, vitae sodales ipsum nibh in ligula. Maecenas mattis pulvinar diam. Curabitur sed leo.&lt;/p&gt;
+
+</description>
+  <pubDate>2013-05-09T00:00:00-06:00</pubDate>
+  <dc:creator>SITE NAME</dc:creator>
+  <guid isPermaLink="true">/starter/blog/2013/05/09/hello-world/</guid>
+</item>
+
+</channel>
+</rss>
