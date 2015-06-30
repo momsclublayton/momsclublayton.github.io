@@ -6,8 +6,6 @@ title: Cranberries
 ---
 
 
-## A New Post
+## MOM's club of Layton
 
-Sometimes I really like to eat goats ![]({{site.baseurl}}/media/nYPmEDn.png)
-
-Sometimes I save things.
+Welcome to the MOM's club of Layton!

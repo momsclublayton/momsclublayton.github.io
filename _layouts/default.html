@@ -21,7 +21,6 @@ title: "Layton Mom's club"
       <div class="nav-wrapper container">
         <a href="{{site.baseurl}}/" class="brand-logo">{{page.title}}</a>
         <ul class="right hide-on-med-and-down">
-          <li><a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a></li>
           <li><a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a></li>
         </ul>
 
@@ -34,8 +33,9 @@ title: "Layton Mom's club"
 
     {{content}}
   </div>
-  <script src='{{site.baseurl}}site.js'></script>
+  <script src='{{site.baseurl}}vendor.js'></script>
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+  <script src='{{site.baseurl}}site.js'></script>
 
 </body>
