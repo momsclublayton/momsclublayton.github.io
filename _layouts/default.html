@@ -8,8 +8,8 @@ title: "Layton Mom's club"
   <meta charset='UTF-8'/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel='alternate' type='application/rss+xml' title='RSS' href='SITEURLGOESHERE/blog.rss' />
-  <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
-  <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
+  <link rel='shortcut icon' href='{{site.baseurl}}/img/sprite.svg' type='image/x-icon' />
+  <link href='{{site.baseurl}}site.css' rel='stylesheet' />
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
 
@@ -23,7 +23,6 @@ title: "Layton Mom's club"
         <ul class="right hide-on-med-and-down">
           <li><a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a></li>
           <li><a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a></li>
-          <li><a href='//github.com/prose/starter'>Fork on GitHub</a></li>
         </ul>
 
         <ul id="nav-mobile" class="side-nav">
@@ -35,7 +34,7 @@ title: "Layton Mom's club"
 
     {{content}}
   </div>
-  <script src='{{site.baseurl}}/site.js'></script>
+  <script src='{{site.baseurl}}site.js'></script>
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
 

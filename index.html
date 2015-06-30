@@ -4,21 +4,20 @@ section: blog
 ---
 
 <div class='container-responsive'>
-  <div class="section">
-    <div class="row">
-      <div class="col s12 collection">
-        {% for item in site.categories.blog limit:1000 %}
-          {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-          {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
-
-          {% if date != ndate %}
-            <h4 class='collection-header'>{{item.date | date: '%B %Y'}}</h4>
-          {% endif %}
-          <a class='collection-item' href='{{site.baseurl}}{{item.url}}'>{{item.title}} <span class='date'>&#126; {{item.date | date:"%b %d"}}</span></a>
-        {% endfor %}
+  {% for item in site.categories.blog limit:1000 %}
+    <div class="section">
+      <div class="row">
+        <div class="col s10 offset-s1">
+          <a class='' href='{{site.baseurl}}{{item.url}}'>{{item.title}} </a>
+          {{item.content}}
+        </div>
       </div>
     </div>
-  </div>
+    <div class="parallax-container">
+      <div class="parallax">
+        <img  src="img/{{item.title}}.png"/>
+      </div>
+    </div>
+  {% endfor %}
 </div>
 
-{% include rss-link.html %}

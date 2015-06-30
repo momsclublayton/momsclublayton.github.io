@@ -2,27 +2,17 @@ callback([
 
   {
     "text": "About",
-    "href": "/starter/about/"
+    "href": "/about/"
   } ,
 
   {
-    "text": "Hello World",
-    "href": "/starter/blog/2013/05/09/hello-world/"
-  } ,
-
-  {
-    "text": "MOM's Club of Layton",
-    "href": "/starter/blog/2013/06/10/another-post/"
-  } ,
-
-  {
-    "text": "What We Do",
-    "href": "/starter/blog/2013/06/16/hello-again/"
+    "text": "",
+    "href": "/blog/2013/06/16/what_we_do/"
   } ,
 
   {
     "text": "Cranberries",
-    "href": "/starter/blog/2015/06/27/your-filename/"
+    "href": "/blog/2015/06/27/your-filename/"
   } 
 
 ])
