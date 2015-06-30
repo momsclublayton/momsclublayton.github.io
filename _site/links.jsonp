@@ -13,6 +13,11 @@ callback([
   {
     "text": "Cranberries",
     "href": "/blog/2015/06/27/your-filename/"
+  } ,
+
+  {
+    "text": "Contact",
+    "href": "/2015/06/29/contact/"
   } 
 
 ])
