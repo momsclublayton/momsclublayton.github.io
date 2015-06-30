@@ -18,6 +18,11 @@ callback([
   {
     "text": "Contact",
     "href": "/2015/06/29/contact/"
+  } ,
+
+  {
+    "text": "Contact.md",
+    "href": "/2015/06/29/contact.md/"
   } 
 
 ])

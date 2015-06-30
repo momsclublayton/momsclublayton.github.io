@@ -1,0 +1,11 @@
+---
+<<<<<<< HEAD
+layout: contact
+=======
+layout: page
+>>>>>>> 6759a20b39dd6dd64aa1462b17e3aabbdf414b45
+published: true
+title: Contact
+---
+
+<iframe src="https://docs.google.com/forms/d/18e71eUU_zdcnWu21ghStGkVvJy1mBcfMgKWmudVMvzg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
